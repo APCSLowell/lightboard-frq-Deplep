@@ -36,6 +36,7 @@ public class LightBoard
    if(lights[row][col] == false && count % 3 == 0){
      return true;
    }
+    return lights[row][col];
   }
   public boolean[][] getLights()
   {
