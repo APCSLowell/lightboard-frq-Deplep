@@ -19,7 +19,7 @@ public class LightBoard
         lights[r][c] = true;
       }
     }
-    return lights[r][c];
+    return true;
   }
 
   /** Evaluates a light in row index row and column index col and returns a status
